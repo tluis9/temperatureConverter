@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graus Fahrenheit</title>
+    <style>
+
+        body {
+            font-family: Roboto;
+            background: -webkit-linear-gradient(to left, #d4a50d, #f1da0d);
+            background: linear-gradient(to left, #d4a50d, #f1da0d);
+            }
+
+        #container{
+            margin: 0 auto;
+            width: auto;
+            display: table;
+            text-align: center;
+        }
+
+        #convert {
+            margin-top:2%;
+            background-color: #4331fb;
+        }
+        #clear {
+            margin-top:2%;
+            background-color: #751d1d;
+        }
+
+        #convert:hover {
+            background-color: #bcc768;
+        }
+        h1 {
+            font-family: sans-serif;
+            color: #042640;
+        }
+        input {
+            display: block;
+            padding: 10px;
+            margin-top: 10px;
+            font-size: 2em;
+            color: #f4a55a;
+            font-family: cursive, sans-serif;
+        }
+        ::-webkit-input-placeholder {
+            color: #ccc;
+        }
+        :-moz-placeholder { /* Firefox 18- */
+            color: #ccc;  
+        }
+        ::-moz-placeholder {  /* Firefox 19+ */
+            color: #ccc;  
+        }
+        :-ms-input-placeholder {  
+            color: #ccc;  
+        }
+        button {
+            padding: 10px;
+            font-size: 1.2em;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Temperature Converter</h1>
+
+        <input type="text" id="fahrenheit" placeholder="Fahrenheit" name="f" value="" />
+
+        <input type="text" id="celsius" placeholder="Celsius" name="c" value="" />
+
+        <button id="convert">Convert!</button>
+        <button id="clear">Reset</button>
+    </div>
+    <script src="conversor.js"></script>
+</body>
+</html>
+
+
