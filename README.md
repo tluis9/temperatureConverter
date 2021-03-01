@@ -7,7 +7,7 @@
 </div>
 
 <h3 align = "center">
-  Um app simples que converte de Celsius para Fahrenheit (e Vice-Versa)! 💸
+  Um app simples que converte de Celsius para Fahrenheit (e Vice-Versa)! 🌀
 </h3>
 
 <h4 align = "center">
